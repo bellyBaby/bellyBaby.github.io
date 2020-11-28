@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Marko">
+    <!-- 
+   _____                __          
+  /     \ _____ _______|  | ______  
+ /  \ /  \\__  \\_  __ \  |/ /  _ \ 
+/    Y    \/ __ \|  | \/    <  <_> )
+\____|__  (____  /__|  |__|_ \____/ 
+        \/     \/           \/       
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Belly Baby</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Font Awesome Icons CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Magnific-popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet"
+        type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet" type="text/css">
+    <style>
+        .navbar-default .navbar-brand:focus,
+        .navbar-default .navbar-brand:hover {
+            color: #D9C4D4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- TODO: 
+    1   nav se esconde
+    2   scroll bar rosa
+    3   imagenes del portafolio
+    4   textos mejorar
+    5   secciones con clip pad
+    6   quitar color verde
+    7   
+-->
+    <!-- PRE LOADER -->
+
+    <div class="preloader">
+        <div class="sk-spinner sk-spinner-pulse"></div>
+    </div>
+
+
+    <!-- Navigation Section -->
+
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">
+                    Belly Baby
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
+                    <li><a href="service.html">Servicios</a></li>
+                    <li><a href="work.html">Trabajos</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+    <!-- Home Section -->
+
+    <section id="home" class="main" style="background-color: whitesmoke;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+
+                    <center>
+                        <img src="img/BELLYBABY LOGOTIPO.png" alt="" width="50%" style="filter: drop-shadow(2.5px 2.5px 2.5px rgb(77, 77, 77));">
+                    </center>
+                    <h1 class="wow fadeInUp head" data-wow-delay="0.6s">PINCELADAS PARA TI Y TU BEBÉ</h1>
+                    <p class="wow fadeInUp lr-pd" data-wow-delay="0.8s">Mi misión es crear momentos inolvidables que te
+                        emocionen.</p>
+
+                    <!--   -->
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon class="svg--sm" fill="#D9C4D4" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100" />
+            <polygon class="svg--lg" fill="#D9C4D4"
+                points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
+        </svg>
+    </section>
+
+
+    <!-- Portfolio Section -->
+
+    <section id="portfolio">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+
+                    <!-- work section -->
+                    <div class="work-section wow fadeInUp" data-wow-delay="1s">
+
+                        <ul class="filter-wrapper clearfix">
+                            <li><a href="#" data-filter="*" class="selected opc-main-bg">Ver todo</a></li>
+                            <li><a href="#" class="opc-main-bg" data-filter=".belly">Belly Painting</a></li>
+                            <!--  <li><a href="#" class="opc-main-bg" data-filter=".print">Body painting</a></li> -->
+                            <li><a href="#" class="opc-main-bg" data-filter=".foto">Sesion fotografica</a></li>
+                            <li><a href="#" class="opc-main-bg" data-filter=".escultura">Escultura</a></li>
+                            <!-- <li><a href="#" class="opc-main-bg" data-filter=".html">Templates</a></li> -->
+                        </ul>
+
+                        <!-- work box section -->
+                        <div class="work-box-section wow fadeInUp" data-wow-delay="1.4s">
+                            <div class="work-box-wrapper col4-work-box">
+
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_1.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_1.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box foto col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/foto_1.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/foto_1.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_2.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_2.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box escultura col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/escultura_1.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/escultura_1.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_4.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_4.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_5.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_5.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_12.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_12.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="work-box foto col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/foto_2.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/foto_2.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_3.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_3.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_6.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_6.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box escultura col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/escultura_3.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/escultura_3.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_7.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_7.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_8.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_8.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box escultura col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/escultura_2.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/escultura_2.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_9.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_9.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_10.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_10.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box belly col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/belly_11.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/belly_11.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="work-box foto col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/foto_3.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/foto_3.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box foto col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/foto_4.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/foto_4.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                <!--  <div class="work-box graphic print col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/portfolio-img8.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/portfolio-img8.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="work-box web print col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/portfolio-img9.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/portfolio-img9.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box web print col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/portfolio-img9.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/portfolio-img9.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box web print col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/portfolio-img9.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/portfolio-img9.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="work-box web print col-md-4 col-sm-6">
+                                    <div class="portfolio-thumb">
+                                        <a href="img/portfolio-img9.jpg" class="image-popup">
+                                            <div class="portfolio-item-hover">
+                                                <i class="fa fa-plus"></i>
+                                            </div>
+                                            <img src="img/portfolio-img9.jpg" class="img-responsive" alt="Portfolio">
+                                        </a>
+                                    </div>
+                                </div> -->
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- CTA Section -->
+
+    <section id="cta" class="bg-gray">
+        <div class="container">
+            <div class="row">
+                <h1 class="wow fadeInUp head" data-wow-delay="0.6s">Mis servicios</h1>
+                <p class="wow fadeInUp lr-pd" data-wow-delay="0.8s">¿Como funciona?</p>
+                <br>
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.2s">
+                    <div class="bg-white">
+                        <img src="img/calendario.png" width="50%" alt="" srcset="">
+                        <h3>1</h3>
+                        <p class="small">Agenda una hora y fecha</p>
+                    </div>
+                </div>
+
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
+                    <div class="bg-white">
+                        <img src="img/diseno-artistico.png" width="50%" alt="" srcset="">
+                        <h3>2</h3>
+                        <p class="small">Diseña tu sesión</p>
+                    </div>
+                </div>
+
+                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.6s">
+                    <div class="bg-white">
+                        <img src="img/madre.png" width="50%" alt="" srcset="">
+                        <h3>3</h3>
+                        <p class="small">Vive un día unico</p>
+                    </div>
+                </div>
+
+                <a href="about.html" class="wow fadeInUp btn btn-success" data-wow-delay="0.8s">¡Reserva una cita
+                    ahora!</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+
+    <!-- Footer Section -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12">
+                    <div class="footer-copyright">
+                        <ul class="social-icon">
+                            <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="0.2s"></a></li>
+                            <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="0.4s"></a></li>
+                            <li><a href="#" class="fa fa-linkedin wow fadeInUp" data-wow-delay="0.6s"></a></li>
+                            <li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="0.8s"></a></li>
+                            <li><a href="#" class="fa fa-dribbble wow fadeInUp" data-wow-delay="1s"></a></li>
+                        </ul>
+                        <p class="small">Creado por Marko</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back top -->
+
+    <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- SCRIPTS -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/imagesloaded.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
