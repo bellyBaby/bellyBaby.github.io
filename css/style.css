@@ -461,6 +461,9 @@ svg {
 /*---------------------------------------
    Team section              
 -----------------------------------------*/
+#team{
+  background-image: linear-gradient(to bottom, #c9a7c1, #ccacc4, #cfb2c8, #d2b7cb, #d5bdcf, #d8c4d5, #dbcbda, #dfd2df, #e4dce7, #eae6ed, #f1f0f3, #f9f9f9);
+}
 
 #team h4 {
   padding-bottom: 12px;
@@ -505,6 +508,9 @@ svg {
 /*---------------------------------------
     Service section              
 -----------------------------------------*/
+#service{
+  background-image: linear-gradient(to bottom, #c9a7c1, #ccacc4, #cfb2c8, #d2b7cb, #d5bdcf, #d8c4d5, #dbcbda, #dfd2df, #e4dce7, #eae6ed, #f1f0f3, #f9f9f9);
+}
 
 #service .fa {
   background-color: #f0f0f0;
@@ -696,6 +702,10 @@ svg {
 /*---------------------------------------
    Contact         
 -----------------------------------------*/
+#contact{
+  background-image: linear-gradient(to bottom, #c9a7c1, #ccacc4, #cfb2c8, #d2b7cb, #d5bdcf, #d8c4d5, #dbcbda, #dfd2df, #e4dce7, #eae6ed, #f1f0f3, #f9f9f9);
+}
+
 
 #contact form .form-control {
   /* background: transparent; */
