@@ -461,7 +461,7 @@ svg {
 /*---------------------------------------
    Team section              
 -----------------------------------------*/
-#team{
+#team {
   background-image: linear-gradient(to bottom, #c9a7c1, #ccacc4, #cfb2c8, #d2b7cb, #d5bdcf, #d8c4d5, #dbcbda, #dfd2df, #e4dce7, #eae6ed, #f1f0f3, #f9f9f9);
 }
 
@@ -508,7 +508,7 @@ svg {
 /*---------------------------------------
     Service section              
 -----------------------------------------*/
-#service{
+#service {
   background-image: linear-gradient(to bottom, #c9a7c1, #ccacc4, #cfb2c8, #d2b7cb, #d5bdcf, #d8c4d5, #dbcbda, #dfd2df, #e4dce7, #eae6ed, #f1f0f3, #f9f9f9);
 }
 
@@ -702,7 +702,7 @@ svg {
 /*---------------------------------------
    Contact         
 -----------------------------------------*/
-#contact{
+#contact {
   background-image: linear-gradient(to bottom, #c9a7c1, #ccacc4, #cfb2c8, #d2b7cb, #d5bdcf, #d8c4d5, #dbcbda, #dfd2df, #e4dce7, #eae6ed, #f1f0f3, #f9f9f9);
 }
 
@@ -844,7 +844,7 @@ footer .footer-copyright p {
   box-shadow: 1px 1.732px 12px 0px rgba(0, 0, 0, .14), 1px 1.732px 3px 0px rgba(0, 0, 0, .12);
   border-radius: 2px;
   transition: all 1s ease;
-  bottom: 2em;
+  bottom: 4em;
   right: 2em;
   color: #333;
   font-size: 22px;
@@ -1156,4 +1156,752 @@ footer .footer-copyright p {
   h1 {
     font-size: 24px;
   }
+}
+
+/* WA Chat by bloggerbyte.net */
+#goomsubscribe,
+.box5 {
+  display: block;
+  position: relative;
+}
+
+.list-feature {
+  text-align: center;
+  width: 14.5%;
+  float: left;
+  padding: 15px;
+  background: #fff;
+  margin: 15px;
+  box-shadow: rgba(218, 218, 218, 0.85) 0 0 29px;
+}
+
+.box5 {
+  background: #c300be;
+}
+
+.box-feature h2 {
+  font-size: 15px;
+  margin: 15px 0 5px;
+}
+
+.box-feature h3 {
+  margin: 0;
+  font-size: 13px;
+  color: #9a9a9a;
+  line-height: 1.5em;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+
+.box5,
+.color-wite h3,
+.color-wite p {
+  color: #fff;
+}
+
+.list-icon {
+  width: 70px;
+  padding: 15px;
+  margin: -45px auto 20px;
+  background: #c300be;
+}
+
+.list-icon svg {
+  font-size: 30px;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  width: 45px;
+  height: auto;
+  fill: #fbdc03;
+  position: relative;
+}
+
+.box5 {
+  overflow: hidden;
+  padding: 4rem 0;
+  height: 250px;
+}
+
+.color-wite {
+  margin-bottom: 20px;
+}
+
+.color-wite h3 {
+  font-size: 27px;
+}
+
+#goomsubscribe {
+  width: 500px;
+  height: auto;
+  margin: auto;
+  padding: 0;
+  z-index: 10;
+}
+
+.footer-menu ul li,
+.goomedia li {
+  display: inline-block;
+}
+
+#goomsubscribe .email {
+  position: relative;
+  border-radius: 50px;
+}
+
+#goomsubscribe .email button {
+  position: absolute;
+  cursor: pointer;
+  right: -6%;
+  color: #000;
+  outline: 0;
+  font-size: 24px;
+  top: 0;
+  width: 55px;
+  background: #fbdc03;
+  border: none;
+  bottom: 0;
+}
+
+#goomsubscribe .email button svg {
+  width: 30px;
+  height: auto;
+}
+
+#goomsubscribe .email form {
+  width: 100%;
+  border-radius: 50px;
+  background: #fff;
+}
+
+#goomsubscribe input.email {
+  line-height: 1.5em;
+  width: 100%;
+  border: none;
+  padding: 15px 0 15px 30px;
+  font-size: 12px;
+  text-align: left;
+  outline: 0;
+}
+
+.goomedia li a,
+.goomedia ul,
+.sidebar h3,
+.nabil-live {
+  text-align: center;
+}
+
+.goomedia {
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.goomedia ul {
+  margin: 10px auto;
+}
+
+.goomedia li {
+  margin: 10px;
+  background: #fff;
+  box-shadow: 0 1px 2px #3f688c;
+  width: 48px;
+  border-radius: 50px;
+  line-height: 48px;
+  height: 48px;
+}
+
+.goomedia li a {
+  padding: 0;
+  color: #c300be;
+  border-radius: 50px;
+}
+
+.goomedia li svg {
+  width: 20px;
+  height: auto;
+  fill: #c300be;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.bx {
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.fixed-wrapper {
+  width: 100%;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.footer-menu,
+.footer-menu ul {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.info-chat span,
+.informasi {
+  display: block;
+}
+
+.footer-menu li a {
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+  position: relative;
+  padding: 0 10px;
+}
+
+#whatsapp-chat,
+.nabil-live {
+  background: white;
+  position: fixed;
+  z-index: 100;
+  right: 30px;
+}
+
+#whatsapp-chat {
+  width: 350px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 8px 25px -5px rgba(45, 62, 79, 0.15);
+  -moz-box-shadow: 0 8px 25px -5px rgba(45, 62, 79, 0.15);
+  box-shadow: 0 8px 25px -5px rgba(45, 62, 79, 0.15);
+  bottom: 80px;
+  overflow: hidden;
+}
+
+#btn-chat,
+#tooltip i,
+.nabil-live svg {
+  vertical-align: middle;
+}
+
+.nabil-live {
+  color: white;
+  background: linear-gradient(45deg, #029abd 0, #05c537 100%);
+  background: -webkit-linear-gradient(45deg, #029abd 0, #05c537 100%);
+  bottom: 25px;
+  line-height: 30px;
+  font-size: 15px;
+  padding: 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 1px 5px rgba(154, 154, 154, 0.2);
+  -moz-box-shadow: 0 1px 5px rgba(154, 154, 154, 0.2);
+  box-shadow: 0 1px 5px rgba(154, 154, 154, 0.2);
+}
+
+.nabil-live .svg {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  padding: 5px 8px;
+  -webkit-border-radius: 0 50px 50px 0;
+  -moz-border-radius: 0 50px 50px 0;
+  border-radius: 0 50px 50px 0;
+  right: -10px;
+  background-color: white;
+  color: #31c73a;
+  width: 39px;
+  height: 39px;
+  line-height: 30px;
+  overflow: hidden;
+  text-align: center;
+  z-index: 10;
+}
+
+.box-live,
+.goomwhats,
+.info-avatar {
+  position: relative;
+}
+
+.box-live a,
+.info-chat {
+  color: white;
+}
+
+.box-live {
+  padding: 4px 20px;
+}
+
+.box-live span {
+  margin-right: 40px;
+  font-size: 13px;
+}
+
+.info-chat {
+  padding-top: 3px;
+}
+
+.info-chat span.chat-label {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.info-chat span.chat-text {
+  font-size: 13px;
+  line-height: 1.3;
+  color: #d7ffee;
+}
+
+.info-avatar {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin: 5px 15px 0 0;
+}
+
+.info-avatar img {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.informasi {
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(45deg, 0, #05c537 100%);
+  background: -webkit-linear-gradient(45deg, #029abd 0, #05c537 100%);
+  z-index: 1;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+.goomwhats {
+  color: #444;
+  padding: 5px 15px;
+  background-color: white;
+  font-size: 14px;
+  display: flow-root;
+}
+
+.goomwhats a {
+  color: #1856c7;
+}
+
+.boxmsg {
+  margin: 8px 0 0;
+  float: left;
+  width: 74%;
+  display: block;
+}
+
+.goophone {
+  position: absolute;
+  right: 45px;
+  top: 10px;
+  font-size: 13px;
+  z-index: 10;
+}
+
+.goophone a {
+  color: #e6f9d2;
+  margin-left: 15px;
+}
+
+.goophone a svg,
+a.close-chat svg {
+  width: 16px;
+  height: auto;
+  fill: #e6f9d2;
+}
+
+.jamwa {
+  display: block;
+  float: right;
+  font-size: 11px;
+  color: #717171;
+}
+
+.jamwa div {
+  display: inline-block;
+}
+
+#btn-chat {
+  float: right;
+  margin-top: 15px;
+}
+
+.first-msg {
+  background-color: #e6ddd4;
+  position: relative;
+  padding: 20px 20px 20px 10px;
+}
+
+.first-msg::before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.08;
+  background-image: url(https://goomsite.github.io/img/wa-min.webp);
+}
+
+#tooltip:after,
+.box-msg:before {
+  content: "";
+}
+
+.box-msg {
+  background: #e4fec8;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.13);
+  color: #333;
+  font-size: 14px;
+  line-height: 1.7;
+  border-radius: 0 7.5px 7.5px;
+  position: relative;
+  margin-left: 30px;
+  padding: 10px 20px;
+  z-index: 1;
+  display: inline-block;
+}
+
+.box-msg:before {
+  position: absolute;
+  border-width: 17px;
+  border-style: none solid solid none;
+  border-color: #e4fec8 #e4fec8 transparent transparent;
+  top: 0;
+  left: -16px;
+}
+
+.box-msg span {
+  display: block;
+}
+
+.box-msg span.chat-nama {
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.box-msg span.chat-cript {
+  margin-bottom: 5px;
+}
+
+#tooltip {
+  text-align: center;
+  color: #fff;
+  background: #333;
+  position: absolute;
+  z-index: 100;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 90%;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+#tooltip i {
+  display: inline-block;
+  margin: 5px;
+}
+
+#tooltip:after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #333;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  margin-left: -10px;
+}
+
+#tooltip.top:after {
+  border-top-color: transparent;
+  border-bottom: 10px solid #333;
+  top: -20px;
+  bottom: auto;
+}
+
+#tooltip.left:after {
+  left: 10px;
+  margin: 0;
+}
+
+#tooltip.right:after {
+  right: 10px;
+  left: auto;
+  margin: 0;
+}
+
+.formtamv * {
+  outline: 0;
+  text-decoration: none;
+}
+
+.formtamv .focus {
+  box-shadow: inset 0 0 0 1px #36c83f;
+}
+
+.formtamv label {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.formtamv label>input,
+.formtamv label>select,
+.formtamv label>textarea {
+  position: relative;
+  z-index: 1;
+  border: none;
+  background: #f9f9f9;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.02),
+    inset 1px 1px 5px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  border-radius: 50px;
+  padding: 10px 20px 0;
+}
+
+.formtamv label>i {
+  position: absolute;
+  z-index: 0;
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+  text-align: center;
+  font-size: 20px;
+  height: auto;
+  background: none;
+  box-shadow: none;
+  top: 3px;
+  left: 0;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.formtamv label small {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  z-index: 3;
+}
+
+.formtamv label small>a.tooltip {
+  margin-left: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.formtamv label small>a.tooltip:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.formtamv label small a {
+  font-weight: 700;
+}
+
+.formtamv select::-ms-expand {
+  display: none;
+}
+
+.formtamv select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.formtamv select option {
+  font-size: 18px;
+  background: #edf8f5;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: none;
+}
+
+.formtamv .nomor_whatsapp[type="number"]::-webkit-inner-spin-button,
+.formtamv .nomor_whatsapp[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.nomor_whatsapp[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.formtamv label> :focus {
+  background: none;
+}
+
+.formtamv label textarea {
+  min-height: 20px;
+  resize: none;
+  margin-bottom: 0;
+}
+
+.formtamv label .validasi {
+  position: absolute;
+  z-index: 2;
+  right: -30px;
+  background: #36c83f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 80%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s;
+  visibility: hidden;
+  opacity: 0;
+  display: inline-block !important;
+}
+
+.formtamv label .validasi.show {
+  visibility: visible;
+  opacity: 1;
+  bottom: 100%;
+}
+
+.formtamv label .validasi:after {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  content: "";
+  border: 8px solid;
+  border-color: #36c83f transparent transparent;
+}
+
+a.close-chat {
+  position: absolute;
+  top: 10px;
+  right: 13px;
+  color: #c3ffc7;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.nime {
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #05d436;
+  right: -2px;
+  bottom: 8px;
+}
+
+.nime:after,
+.nime:before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+  border-radius: 100%;
+  top: -8px;
+  left: -8px;
+  background: #05d436;
+}
+
+.nime:before {
+  -webkit-animation: nime 2s ease-out infinite;
+  animation: nime 2s ease-out infinite;
+}
+
+.nime:after {
+  z-index: 1;
+  -webkit-animation: nime 2s 0.4s ease-out infinite;
+  animation: nime 2s 0.4s ease-out infinite;
+}
+
+@-webkit-keyframes nime {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes nime {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes showhide {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes showchat {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.hide,
+.show {
+  animation-name: showhide;
+  animation-duration: 1.5s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+@media screen and (max-width: 480px) {
+  #whatsapp-chat {
+    width: auto;
+    left: 5%;
+    right: 5%;
+    font-size: 80%;
+  }
+}
+
+.postmeta a,
+.sidebar-wrapper {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
