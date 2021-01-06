@@ -735,7 +735,7 @@ svg {
   letter-spacing: 2px;
   color: #ffffff;
   text-transform: uppercase;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 #contact form input[type="submit"]:hover {
